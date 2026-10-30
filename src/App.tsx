@@ -5,6 +5,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { CheckCircle2 } from 'lucide-react';
+import { StudyAssistant } from './components/StudyAssistant';
 import { BeginnerTipsSection } from './components/BeginnerTipsSection';
 import { ConfirmDeleteModal } from './components/ConfirmDeleteModal';
 import { EmptyState } from './components/EmptyState';
@@ -151,6 +152,7 @@ export default function App() {
       <SummaryStrip goals={goals} />
 
       <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
+        <StudyAssistant goals={goals} />
         {feedbackMessage && (
           <div
             role="status"
