@@ -1,5 +1,7 @@
 # StudyFlow
 
+**Projeto feito durante a imersão de AI da alura** 
+
 **Organize seus objetivos de estudo e transforme seus planos em próximos passos.**
 
 O StudyFlow combina um organizador de metas com um mentor de estudos executado
